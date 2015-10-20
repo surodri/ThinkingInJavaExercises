@@ -8,9 +8,6 @@ import java.io.PrintStream;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-/**
- * Created by Thoughtworker on 9/29/15.
- */
 public class OverloadedMethodsTest {
 
     @Test

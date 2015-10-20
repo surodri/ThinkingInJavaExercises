@@ -7,9 +7,6 @@ import java.io.PrintStream;
 
 import static org.mockito.Mockito.*;
 
-/**
- * Created by Thoughtworker on 9/9/15.
- */
 public class Exercise14Test {
 
     @Test

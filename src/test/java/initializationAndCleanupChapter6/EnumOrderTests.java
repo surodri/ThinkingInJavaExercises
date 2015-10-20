@@ -10,9 +10,6 @@ import static org.mockito.Mockito.inOrder;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-/**
- * Created by Thoughtworker on 9/14/15.
- */
 public class EnumOrderTests {
 
     PrintStream printStream;

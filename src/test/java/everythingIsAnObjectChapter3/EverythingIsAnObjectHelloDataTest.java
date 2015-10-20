@@ -1,13 +1,9 @@
 package everythingIsAnObjectChapter3;
 
-import everythingInAnObjectChapter3.EverythingIsAnObjectHelloData;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-/**
- * Created by Thoughtworker on 8/31/15.
- */
 public class EverythingIsAnObjectHelloDataTest {
 
     @Test

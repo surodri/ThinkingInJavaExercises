@@ -1,14 +1,9 @@
 package everythingIsAnObjectChapter3;
 
-
-import everythingInAnObjectChapter3.Tank;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-/**
- * Created by Thoughtworker on 9/2/15.
- */
 public class TankTest {
 
     @Test

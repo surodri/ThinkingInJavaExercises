@@ -2,9 +2,6 @@ package polymorphism.rodent;
 
 import java.io.PrintStream;
 
-/**
- * Created by Thoughtworker on 10/13/15.
- */
 public class Hamster extends Rodent{
     private final PrintStream printStream;
     private final MemberObject member;

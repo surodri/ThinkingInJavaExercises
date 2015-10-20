@@ -1,14 +1,10 @@
 package access.mypackage;
 
-import access.mypackage.AccessClassMembers;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.mockito.Mockito.mock;
 
-/**
- * Created by Thoughtworker on 9/16/15.
- */
 public class AccessClassMembersTest {
 
     AccessClassMembers exercise5;

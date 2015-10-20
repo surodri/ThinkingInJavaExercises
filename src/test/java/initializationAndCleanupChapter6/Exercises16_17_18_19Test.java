@@ -10,9 +10,6 @@ import static org.mockito.Mockito.inOrder;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-/**
- * Created by Thoughtworker on 9/9/15.
- */
 public class Exercises16_17_18_19Test {
 
     private PrintStream printStream;

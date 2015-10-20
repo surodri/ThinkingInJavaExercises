@@ -6,9 +6,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-/**
- * Created by Thoughtworker on 8/31/15.
- */
 public class InitializationCleanupOverloadedMethodsTest {
 
     @Test
