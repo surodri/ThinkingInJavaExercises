@@ -1,21 +1,13 @@
 package polymorphism;
 
 import polymorphism.shape.*;
-
-<<<<<<< HEAD
 import java.io.PrintStream;
 
 
 public class Shapes {
     private static PrintStream printStream = new PrintStream(System.out);
-    private static RandomShapeGenerator randomShapeGenerator = new RandomShapeGenerator(printStream);
-=======
-
-
-public class Shapes {
-    private static RandomShapeGenerator randomShapeGenerator = new RandomShapeGenerator();
->>>>>>> 3aba159c4348c990e7154e2169e267508c343c0d
-
+    private static RandomShapeGenerator randomShapeGenerator = new RandomShapeGenerator(System.out);
+    
     public static void main(String[] args){
         Shape[] s = new Shape[9];
 
@@ -25,15 +17,12 @@ public class Shapes {
 
         for(Shape shape : s)
             shape.draw();
-<<<<<<< HEAD
 
-        Rectangle rectangle = new Rectangle(printStream);
+        Rectangle rectangle = new Rectangle(System.out);
         rectangle.draw();
 
-        Square square = new Square(printStream);
+        Square square = new Square(System.out);
         square.erase();
-=======
->>>>>>> 3aba159c4348c990e7154e2169e267508c343c0d
     }
 
 }

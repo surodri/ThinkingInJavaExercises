@@ -1,10 +1,7 @@
 package initializationAndCleanupChapter6;
 
-<<<<<<< HEAD
-import EverythingInAnObjectChapter3.Tank;
-=======
-import everythingInAnObjectChapter3.Tank;
->>>>>>> 3aba159c4348c990e7154e2169e267508c343c0d
+
+import everythingIsAnObjectChapter3.Tank;
 
 public class TerminationCondition {
 

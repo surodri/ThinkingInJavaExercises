@@ -1,8 +1,5 @@
 package initializationAndCleanupChapter6;
 
-/**
- * Created by Thoughtworker on 9/9/15.
- */
 public class ExplicitStaticExc13 {
 
     public static void main(String[] args){

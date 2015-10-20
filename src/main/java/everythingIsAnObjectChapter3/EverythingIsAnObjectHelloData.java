@@ -1,4 +1,4 @@
-package everythingInAnObjectChapter3;
+package everythingIsAnObjectChapter3;
 
 import java.util.Date;
 

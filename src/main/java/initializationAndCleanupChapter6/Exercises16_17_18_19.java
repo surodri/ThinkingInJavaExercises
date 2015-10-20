@@ -2,9 +2,6 @@ package initializationAndCleanupChapter6;
 
 import java.io.PrintStream;
 
-/**
- * Created by Thoughtworker on 9/9/15.
- */
 public class Exercises16_17_18_19 {
     private final PrintStream printStream;
 

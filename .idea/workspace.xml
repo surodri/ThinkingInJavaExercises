@@ -4,7 +4,64 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/initializationAndCleanupChapter6/Exercises16_17_18_19Test.java" line="68" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1e2f4f4-c999-4304-9218-2117fd425e50" name="Default" comment="" />
+    <list default="true" id="f1e2f4f4-c999-4304-9218-2117fd425e50" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/BehaviorOfFinalize.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/CupExc13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/initializationAndCleanupChapter6/CupTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/CupsExc13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/Dog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/initializationAndCleanupChapter6/DogTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/EnumOrder$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/EnumOrder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/initializationAndCleanupChapter6/EnumOrderTests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/Exercise14.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/initializationAndCleanupChapter6/Exercise14Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/Exercise15.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/Exercises16_17_18_19.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/initializationAndCleanupChapter6/Exercises16_17_18_19Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/ExplicitStaticExc13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/InitializationAndCleanup$InitializationCleanupOverloadedMethods.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/InitializationAndCleanup.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/initializationAndCleanupChapter6/InitializationAndCleanupTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/initializationAndCleanupChapter6/InitializationCleanupOverloadedMethodsTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/PaperCurrency.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/initializationAndCleanupChapter6/TerminationCondition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/everythingIsAnObjectChapter3/ATypeName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AcessControlChapter7/AcessControl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AcessControlChapter7/debug/AcessControlIdenticalClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AcessControlChapter7/debugoff/AcessControlIdenticalClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/AccessControlChapter7/AcessControlIdenticalClassTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/CTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/CartoonTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/Component1Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/Component2Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/Component3Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/everythingIsAnObjectChapter3/DataOnly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/everythingIsAnObjectChapter3/EverythingIsAnObjectHelloData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/EverythingIsAnObjectChapter3/EverythingIsAnObjectHelloDataTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/Exercise4Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/ExercisesTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AcessControlChapter7/JavaAccessSpecifiers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/OverloadedMethodsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/RootTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ReusingClassesChapter8Test/StemTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/everythingIsAnObjectChapter3/Tank.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/EverythingIsAnObjectChapter3/TankTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/AcessControlChapter7/Widget.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/everythingInAnObjectChapter3/ATypeName.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/everythingInAnObjectChapter3/DataOnly.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/everythingInAnObjectChapter3/EverythingIsAnObjectHelloData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/everythingInAnObjectChapter3/Tank.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Circle.java" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Circle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/polymorphism/shape/RandomShapeGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/shape/RandomShapeGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Shape.java" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Shape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/polymorphism/Shapes.java" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/Shapes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Square.java" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Square.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/initializationAndCleanupChapter6/TerminationCondition.java" afterPath="$PROJECT_DIR$/src/main/java/initializationAndCleanupChapter6/TerminationCondition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/polymorphism/shape/Triangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ThinkingInJavaExercises.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,75 +87,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Rodent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/rodent/Rodent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="390">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mouse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/rodent/Mouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="570">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hamster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/rodent/Hamster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="465">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gerbil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/rodent/Gerbil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="405">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rodents.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/rodent/Rodents.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="645">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReferenceCounting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/referencecounting/ReferenceCounting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PolyConstructors.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PolyConstructors.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/polymorphicConstructors/PolyConstructors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11221945" vertical-offset="0" max-vertical-offset="802">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shapes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/Shapes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/shape/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomShapeGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/shape/RandomShapeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThinkingJavaMain.class" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/classes/ThinkingJavaMain.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#230#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Circle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/shape/Circle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/shape/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/shape/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,19 +176,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="375">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Glyph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/polymorphism/polymorphicConstructors/Glyph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -132,15 +186,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="375">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">

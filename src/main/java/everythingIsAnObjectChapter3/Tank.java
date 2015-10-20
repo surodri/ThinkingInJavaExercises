@@ -1,8 +1,5 @@
-package everythingInAnObjectChapter3;
+package everythingIsAnObjectChapter3;
 
-/**
- * Created by Thoughtworker on 9/2/15.
- */
 public class Tank {
 
     public boolean fillTank;

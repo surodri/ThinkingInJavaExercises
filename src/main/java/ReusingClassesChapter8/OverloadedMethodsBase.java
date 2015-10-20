@@ -2,9 +2,6 @@ package ReusingClassesChapter8;
 
 import java.io.PrintStream;
 
-/**
- * Created by Thoughtworker on 9/29/15.
- */
 public class OverloadedMethodsBase {
 
     private final PrintStream printStream;

@@ -1,8 +1,5 @@
 package initializationAndCleanupChapter6;
 
-/**
- * Created by Thoughtworker on 8/31/15.
- */
 public class InitializationAndCleanup {
 
 
@@ -31,10 +28,6 @@ public class InitializationAndCleanup {
         return initializedField;
     }
 
-
-    /**
-     * Created by Thoughtworker on 8/31/15.
-     */
     public static class InitializationCleanupOverloadedMethods {
 
 

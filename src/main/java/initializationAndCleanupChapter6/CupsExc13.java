@@ -1,10 +1,8 @@
 package initializationAndCleanupChapter6;
 
+
 import java.io.PrintStream;
 
-/**
- * Created by Thoughtworker on 9/9/15.
- */
 public class CupsExc13 {
     static CupExc13 cup1;
     static CupExc13 cup2;

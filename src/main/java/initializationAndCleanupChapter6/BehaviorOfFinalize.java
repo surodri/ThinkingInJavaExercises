@@ -1,8 +1,5 @@
 package initializationAndCleanupChapter6;
 
-/**
- * Created by Thoughtworker on 9/2/15.
- */
 public class BehaviorOfFinalize {
 
     private Boolean finalizeErrorFlag;
