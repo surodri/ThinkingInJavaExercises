@@ -1,8 +1,10 @@
 package polymorphism.meal;
 
+import interfacesChapter10.Exc8FastFood;
+
 import java.io.PrintStream;
 
-public class Sandwich extends PortableLunch{
+public class Sandwich extends PortableLunch implements Exc8FastFood {
     private final PrintStream printStream;
     private Bread bread;
     private Cheese cheese;
@@ -24,4 +26,8 @@ public class Sandwich extends PortableLunch{
     }
 
 
+    @Override
+    public void deepFried() {
+        printStream.println("So Greasy :)");
+    }
 }

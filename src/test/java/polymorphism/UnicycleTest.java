@@ -16,9 +16,10 @@ public class UnicycleTest {
 
 
     PrintStream printStream = mock(PrintStream.class);
-    Unicycle unicycle = new Unicycle(printStream);
+    Cycle cycle = mock(Cycle.class);
+        Unicycle unicycle = new Unicycle(printStream);
 
-    unicycle.drive(unicycle);
+    unicycle.drive(cycle);
 
     verify(printStream).println("Upcasted");
     }
