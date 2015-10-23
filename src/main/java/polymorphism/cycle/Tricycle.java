@@ -1,16 +1,16 @@
-package polymorphism;
+package polymorphism.cycle;
 
 import java.io.PrintStream;
 
-public class Unicycle extends Cycle{
+public class Tricycle extends Cycle {
     private final PrintStream printStream;
 
-    public Unicycle(PrintStream printStream) {
+    public Tricycle(PrintStream printStream) {
         super(printStream);
         this.printStream = printStream;
     }
 
-    public void drive(Cycle cycle){
+    public void drive(Cycle cycle) {
         cycle.ride();
     }
 }

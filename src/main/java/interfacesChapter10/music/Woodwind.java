@@ -10,9 +10,9 @@ public class Woodwind extends Wind {
         this.printStream = printStream;
     }
 
-    public void play(Note note) {
-        printStream.println("Woodwind.play() " + note);
-    }
+//    public void play(Note note) {
+//        printStream.println("Woodwind.play() " + note);
+//    }
 
     public String what() {
         return "Woodwind";

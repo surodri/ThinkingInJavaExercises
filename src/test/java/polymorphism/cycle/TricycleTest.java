@@ -1,4 +1,4 @@
-package polymorphism;
+package polymorphism.cycle;
 
 import org.junit.Test;
 
