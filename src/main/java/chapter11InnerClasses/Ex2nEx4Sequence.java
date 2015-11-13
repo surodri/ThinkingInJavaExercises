@@ -13,9 +13,19 @@ public class Ex2nEx4Sequence {
     }
     private class SequenceSelector implements Selector {
         private int i = 0;
-        public boolean end() { return i == items.length; }
+        public boolean end() {
+            return i == items.length;}
+
         public Object current() { return items[i]; }
+
         public void next() { if(i < items.length) i++; }
+
+        public void printAll() {
+                while(!end()){
+                    System.out.print(current() + " ");
+                    next();
+                }
+        }
 
         public Ex2nEx4Sequence getSequence(){
             return Ex2nEx4Sequence.this;
@@ -35,10 +45,7 @@ public class Ex2nEx4Sequence {
         }
 
         Selector selector = sequence.selector();
-        while(!selector.end()){
-            System.out.println(selector.current() + " ");
-            selector.next();
-        }
+        selector.printAll();
 
         Ex5Outer outer = new Ex5Outer();
         Ex5Outer.Ex5Inner inner = outer.new Ex5Inner();

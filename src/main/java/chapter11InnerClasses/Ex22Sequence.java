@@ -12,6 +12,13 @@ public class Ex22Sequence {
         public boolean end() { return i == items.length; }
         public Object current() { return items[i]; }
         public void next() { if(i < items.length) i++; }
+
+        public void printAll() {
+            while(!end()){
+                System.out.print(current() + " ");
+                next();
+            }
+        }
     }
 
     private class ReverseSelector implements Selector {
@@ -24,6 +31,13 @@ public class Ex22Sequence {
         public boolean end() { return i == 0; }
         public Object current() { return items[i]; }
         public void next() { if(i < items.length) i--; }
+
+        public void printAll() {
+            while(!end()){
+                System.out.print(current() + " ");
+                next();
+            }
+        }
     }
 
     public Selector selector() {
