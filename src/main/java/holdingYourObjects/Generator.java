@@ -23,7 +23,7 @@ public class Generator {
         return collection;
     }
 
-    private String next() {
+    protected String next() {
         String character = characters.get(index);
         if((index+1)==characters.size())
         {
