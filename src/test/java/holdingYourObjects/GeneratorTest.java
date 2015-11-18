@@ -1,5 +1,8 @@
 package holdingYourObjects;
+
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,11 +15,11 @@ import static org.assertj.core.api.Assertions.assertThat;
  */
 public class GeneratorTest {
 
-    //tests to right
-    // list is empty return error
-    // index is at end of list, loops to beginning and returns first character
+    @Rule
+    public ExpectedException exception = ExpectedException.none();
+
     @Test
-    public void nextShouldReturnCharactersInOrderAsInList(){
+    public void nextShouldReturnCharactersInOrderAsInList() throws EmptyListException {
 
         List<String> characters = Arrays.asList("thingOne", "thingTwo", "thingThree", "thingFour");
         Generator generator = new Generator(characters);
@@ -29,4 +32,29 @@ public class GeneratorTest {
         assertThat(character3).isEqualTo("thingThree");
         assertThat(character4).isEqualTo("thingFour");
     }
+
+    @Test
+    public void nextShouldReturnFirstCharacterWhenAtEndOfList() throws EmptyListException {
+        List<String> characters = Arrays.asList("Scooby", "Shaggy");
+        Generator generator = new Generator(characters);
+
+        generator.next();
+        generator.next();
+        String loopCharacter = generator.next();
+
+        assertThat(loopCharacter).isEqualTo("Scooby");
+    }
+
+    @Test
+    public void nextShouldThrowsExceptionWhenEmptyArray() throws EmptyListException {
+        List<String> characters = Arrays.asList();
+
+        Generator generator = new Generator(characters);
+
+        exception.expect(EmptyListException.class);
+        generator.next();
+
+    }
+
+
 }

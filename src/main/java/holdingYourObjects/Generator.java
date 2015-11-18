@@ -15,15 +15,18 @@ public class Generator {
         this.characters = characters;
     }
 
-    private Collection<String> fill(Collection<String> collection, int numOfCharacters)
-    {
+    private Collection<String> fill(Collection<String> collection, int numOfCharacters) throws EmptyListException {
         for(int i = 0; i<numOfCharacters; i++){
             collection.add(next());
         }
         return collection;
     }
 
-    protected String next() {
+    protected String next() throws EmptyListException {
+
+        if(characters.isEmpty()){
+            throw new EmptyListException("Error: No characters in the list");
+        }
         String character = characters.get(index);
         if((index+1)==characters.size())
         {
@@ -35,7 +38,7 @@ public class Generator {
     }
 
 
-    public static void main(String [] args){
+    public static void main(String [] args) throws EmptyListException {
 
         Generator generator = new Generator(Arrays.asList("Yoda", "Princess Leia", "R2-D2"));
         System.out.println( generator.fill(new ArrayList<String>(), 1));
