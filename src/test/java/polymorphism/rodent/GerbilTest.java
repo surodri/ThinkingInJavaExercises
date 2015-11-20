@@ -6,6 +6,7 @@ import java.io.PrintStream;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+import static org.mockito.internal.verification.VerificationModeFactory.atLeastOnce;
 
 public class GerbilTest {
 
@@ -42,7 +43,7 @@ public class GerbilTest {
         PrintStream printStream = mock(PrintStream.class);
         Gerbil gerbil = new Gerbil(printStream);
 
-        verify(printStream).println("MemberObject()");
+        verify(printStream, atLeastOnce()).println("MemberObject()");
     }
 }
 

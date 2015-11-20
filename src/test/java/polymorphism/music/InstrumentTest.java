@@ -3,7 +3,6 @@ package polymorphism.music;
 import org.junit.Test;
 
 import java.io.PrintStream;
-import java.security.PublicKey;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
@@ -29,7 +28,7 @@ public class InstrumentTest {
         PrintStream printStream = mock(PrintStream.class);
         Instrument instrument = new Instrument(printStream);
 
-        String type = instrument.typeToString();
+        String type = instrument.toString();
 
         assertThat(type).isEqualTo("Instrument");
 

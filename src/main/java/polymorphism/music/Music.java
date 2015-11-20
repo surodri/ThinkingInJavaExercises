@@ -1,7 +1,5 @@
 package polymorphism.music;
 
-import java.io.PrintStream;
-
 public class Music {
 
     private static RandomInstrumentGenerator randomInstrumentGenerator =
@@ -28,6 +26,6 @@ public class Music {
             instruments[i] = randomInstrumentGenerator.next();
 
         for(Instrument instrument : instruments)
-            instrument.what();
+            instrument.toString();
     }
 }

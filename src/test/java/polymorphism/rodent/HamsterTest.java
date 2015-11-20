@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.io.PrintStream;
 
+import static org.mockito.Mockito.atLeastOnce;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
@@ -45,7 +46,7 @@ public class HamsterTest {
         PrintStream printStream = mock(PrintStream.class);
         Hamster hamster = new Hamster(printStream);
 
-        verify(printStream).println("MemberObject()");
+        verify(printStream, atLeastOnce()).println("MemberObject()");
     }
 
 

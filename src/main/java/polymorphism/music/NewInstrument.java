@@ -18,7 +18,7 @@ public class NewInstrument extends Instrument{
         printStream.println("Adjusting NewInstrument");
     }
 
-    public String what() {
+    public String toString() {
         return "NewInstrument";
     }
 }

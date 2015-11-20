@@ -13,7 +13,7 @@ public class RoundGlyph extends Glyph{
         printStream.println("RoundGlyph.RoundGlyph(), radius = " + radius);
     }
 
-    protected void draw() {
+    public void draw() {
         System.out.println("RoundGlyph.draw(), radius = " + radius);
     }
 }

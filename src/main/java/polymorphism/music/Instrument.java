@@ -14,15 +14,11 @@ public class Instrument {
         printStream.println("Instrument.play() " + note);
     }
 
-    public String what() {
-        return "Instrument";
-    }
-
     public void adjust() {
         printStream.println("Adjusting Instrument");
     }
 
-    public String typeToString() {
-        return null;
+    public String toString() {
+        return "Instrument" ;
     }
 }

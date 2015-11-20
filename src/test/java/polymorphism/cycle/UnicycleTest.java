@@ -14,14 +14,13 @@ public class UnicycleTest {
     @Test
     public void driveShouldCallPrintStreamWithUpcastedMessage() {
 
+        PrintStream printStream = mock(PrintStream.class);
 
-    PrintStream printStream = mock(PrintStream.class);
-    Cycle cycle = mock(Cycle.class);
         Unicycle unicycle = new Unicycle(printStream);
 
-    unicycle.drive(cycle);
+        unicycle.drive(unicycle);
 
-    verify(printStream).println("Upcasted");
+        verify(printStream).println("Upcasted");
     }
 
 }

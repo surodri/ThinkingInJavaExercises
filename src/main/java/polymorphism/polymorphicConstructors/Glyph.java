@@ -3,16 +3,16 @@ package polymorphism.polymorphicConstructors;
 import java.io.PrintStream;
 
 public class Glyph {
-    private final PrintStream printStream;
+    private PrintStream printStream = null;
 
     public Glyph(PrintStream printStream) {
         this.printStream = printStream;
-        printStream.println("Glyph() before draw()");
-        draw();
-        printStream.println("Glyph() after draw()");
+        this.printStream.println("Glyph() before draw()");
+        this.draw();
+        this.printStream.println("Glyph() after draw()");
     }
 
-    protected void draw() {
+    public void draw() {
         printStream.println("Glyph.draw()");
     }
 }

@@ -44,15 +44,14 @@ public class NewInstrumentTest {
         }
 
         @Test
-        public void whatShouldReturnTypeInstrumentUsing(){
+        public void whatShouldReturnTypeInstrumentUsingPrintln(){
 
             PrintStream printStream = mock(PrintStream.class);
             Instrument newInstrument = new NewInstrument(printStream);
 
-            String type = newInstrument.what();
+            String type = newInstrument.toString();
 
             assertThat(type).isEqualTo("NewInstrument");
         }
-
 }
 

@@ -6,6 +6,7 @@ import java.io.PrintStream;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+import static org.mockito.internal.verification.VerificationModeFactory.atLeastOnce;
 
 public class RoundGlyphTest {
 
@@ -29,6 +30,6 @@ public class RoundGlyphTest {
 
         roundGlyph.draw();
 
-        verify(printStream).println("RoundGlyph.draw(), radius = " + radius);
+        verify(printStream, atLeastOnce()).println("RoundGlyph.draw(), radius = " + radius);
     }
 }
