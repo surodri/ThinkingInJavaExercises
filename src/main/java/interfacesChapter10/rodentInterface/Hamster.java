@@ -13,12 +13,11 @@ public class Hamster implements Rodent {
         printStream.println("Hamster()");
     }
 
-    @Override
+
     public void run() {
         printStream.println("Hamster running");
     }
 
-    @Override
     public void attack(){
         printStream.println("Hamster jelous attack");
     }

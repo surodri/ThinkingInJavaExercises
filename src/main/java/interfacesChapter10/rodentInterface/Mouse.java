@@ -18,13 +18,13 @@ public class Mouse implements Rodent {
     }
 
 
-    @Override
+
     public void run() {
 
         printStream.println("Mouse Running");
     }
 
-    @Override
+
     public void attack(){
         printStream.println("Mouse to scared to attack");
     }

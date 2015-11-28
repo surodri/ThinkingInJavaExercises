@@ -8,7 +8,7 @@ public interface Rodent {
     final MemberObject member = null;
 
 
-    void run();
+    public void run();
 
-    void attack();
+    public void attack();
 }

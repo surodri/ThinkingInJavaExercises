@@ -12,12 +12,11 @@ public class Gerbil implements Rodent {
         printStream.println("Gerbil()");
     }
 
-    @Override
+
     public void run() {
         printStream.println("Gerbil running fast");
     }
 
-    @Override
     public void attack(){
         printStream.println("Gerbil scary attack");
     }
