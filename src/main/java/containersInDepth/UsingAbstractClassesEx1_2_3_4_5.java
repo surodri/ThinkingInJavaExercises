@@ -44,7 +44,7 @@ public class UsingAbstractClassesEx1_2_3_4_5 {
                 mapiMap.put(element.getKey().toString(), element.getValue().toString());
             }
         }
-        System.out.println(mapiMap);
+        System.out.println("Map countries starting with A: " +mapiMap);
     }
 
     private void ex2PrintSetOfCountriesStartingWithA() {
@@ -54,9 +54,31 @@ public class UsingAbstractClassesEx1_2_3_4_5 {
                 setiSet.add(country);
             }
         }
-        System.out.println(setiSet);
+        System.out.println("Set countries starting with A: " +
+                setiSet);
     }
 
+    private void ex3FillSetTwiceSameValues() {
+        Set<String> setiHashSet = new HashSet<String>();
+        Set<String> setiLinkedHashSet = new LinkedHashSet<String>();
+        Set<String> setiTreeSet = new TreeSet<String>();
+
+        for(String country: Countries.names(5)){
+            setiHashSet.add(country);
+            setiHashSet.add(country);
+
+            setiLinkedHashSet.add(country);
+            setiLinkedHashSet.add(country);
+
+            setiTreeSet.add(country);
+            setiTreeSet.add(country);
+        }
+
+        System.out.println("HashSet: " + setiHashSet);
+        System.out.println("LinkedHashSet: " + setiLinkedHashSet);
+        System.out.println("TreeSet: " + setiTreeSet);
+
+    }
     public static void main(String[] args){
         UsingAbstractClassesEx1_2_3_4_5 usingAbstractClasses = new UsingAbstractClassesEx1_2_3_4_5();
         usingAbstractClasses.ex1HowSuffleMethodRandomizes();
@@ -64,6 +86,7 @@ public class UsingAbstractClassesEx1_2_3_4_5 {
         usingAbstractClasses.ex2PrintMapOfCountriesStartingWithA();
         usingAbstractClasses.ex2PrintSetOfCountriesStartingWithA();
 
+        usingAbstractClasses.ex3FillSetTwiceSameValues();
     }
 
 }
